@@ -6,7 +6,7 @@
 
 module.exports = {
   /* Your site config here */
-  pathPrefix: "/public",
+  pathPrefix: `/public`,
   siteMetadata: {
     title: `Abhishek Varshney | Portfolio`,
     siteUrl: `https://varshneyabhi.github.com`,
