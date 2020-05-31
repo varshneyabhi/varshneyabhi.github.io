@@ -16,7 +16,7 @@ const aboutStyle = {
 const DrawAbout = () => {
 	return (
 		<div>
-
+		Under construction.
 		</div>
 	)
 }
