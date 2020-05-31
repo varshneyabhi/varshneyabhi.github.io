@@ -6,10 +6,11 @@
 
 module.exports = {
   /* Your site config here */
-  pathPrefix: "/public",
+  pathPrefix: `/public`,
+  assetPrefix: `/public`,
   siteMetadata: {
     title: `Abhishek Varshney | Portfolio`,
-    siteUrl: `https://varshneyabhi.github.com`,
+      siteUrl: `https://varshneyabhi.github.com/public/`,
     description: `Abhishek Varshney's portfolio.`,
   }
 }
