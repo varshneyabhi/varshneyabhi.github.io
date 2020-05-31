@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{"3XHS":function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),l=t.n(a),r=(t("LbRr"),t("UrBZ"),t("QSOs")),c=(t("IP2g"),{minHeight:"100vh",backgroundColor:"#f2f2f2"}),i=function(){return l.a.createElement("div",null)};n.default=function(){return l.a.createElement("div",null,l.a.createElement("div",{style:c},l.a.createElement("div",{className:"topline"}),l.a.createElement(r.a,null),l.a.createElement(i,null)))}}}]);
+//# sourceMappingURL=component---src-pages-about-js-182a59d6a9010dbb592a.js.map
