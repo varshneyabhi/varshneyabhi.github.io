@@ -1,0 +1,8 @@
+#!/bin/bash
+cd public
+git rm -r .
+cd ..
+gatsby build
+cd public
+git add --all
+cd ..
