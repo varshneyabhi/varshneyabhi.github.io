@@ -17,10 +17,10 @@ export default () => {
                         <Link className="nav-link" activeClassName="active" to="/">Home <span className="sr-only">(current)</span></Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" activeClassName="active" to="#about">About</Link>
+                        <Link className="nav-link" activeClassName="active" to="/about/">About</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" activeClassName="active" to="#contact">Contact</Link>
+                        <Link className="nav-link" activeClassName="active" to="/#contact">Contact</Link>
                     </li>
                 </ul>
             </div>

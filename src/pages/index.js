@@ -39,13 +39,11 @@ const DrawContactBar = () => {
 export default () =>
     <div>
         <div style={indexStyle}>
+    		<div className="topline"></div>
             <NavBar></NavBar>
             <Header> </Header>
             <DrawIntro />
             <DrawContactBar></DrawContactBar>
-        </div>
-        <div>
-            About me
         </div>
     </div>
 //background-image: url("/img/rocky-wall.png");

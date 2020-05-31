@@ -35,6 +35,11 @@ body {
     color : #d3869b;
 }
 
+.topline {
+	background-image: linear-gradient(to right, red,orange,yellow,green,violet);
+	height: 3px;
+}
+
 ul#menu {
     padding-top: 30px;
   }
