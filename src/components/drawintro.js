@@ -25,8 +25,8 @@ function PrintPythonTag() {
 function DrawPic() {
     return  (
         <div align="center">
-            <div className="d-none d-sm-block"> <img src="/img/abhishek.jpg" className="rounded-circle" alt="Abhishek" height="200px" /> </div>
-            <div className="d-block d-sm-none"> <img src="/img/abhishek.jpg" className="rounded-circle" alt="Abhishek" height="100px" /> </div>
+            <div className="d-none d-sm-block"> <img src="./img/abhishek.jpg" className="rounded-circle" alt="Abhishek" height="200px" /> </div>
+            <div className="d-block d-sm-none"> <img src="./img/abhishek.jpg" className="rounded-circle" alt="Abhishek" height="100px" /> </div>
         </div>
     )
 }
