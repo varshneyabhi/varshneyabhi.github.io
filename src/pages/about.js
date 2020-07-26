@@ -20,7 +20,7 @@ const DrawSkillSet = () => {
                 <div>Good working knowledge on Linux and Scripting</div>
             </div>
             <div style={skillborder}>
-                <div style={{"float": "right"}}><strong>Telecom:</strong> PCU, LTE and good understanding of related protocols.</div>
+                <div><strong>Telecom:</strong> PCU, LTE and good understanding of related protocols.</div>
                 <div><strong>Networking:</strong> IP, TCP, UDP and other related concepts.</div>
             </div>
         </div>
@@ -31,7 +31,7 @@ const DrawAbout = () => {
     return (
         <div className="container">
             <div className="row align-items-center">
-                <div className="col col-sm-12 col-lg-7 about_background" style={{"borderLeft": "thick solid #ff0000"}}>
+                <div className="col col-12 col-sm-7 about_background" style={{"borderLeft": "thick solid #ff0000"}}>
                     <h2>About</h2>
                     <div style={{ "marginTop": "30px" }}>
                         My professional journey started in 2007 when I started working on core Telecom 2G, LTE as Software Developer and worked for around 10 years.
@@ -58,7 +58,7 @@ const DrawAbout = () => {
                     </div>
                     <div style={{ "marginTop": "30px" }}></div>
                 </div>
-                <div className="col col-sm-12 col-lg-5 text-white"><DrawSkillSet /></div>
+                <div className="col col-12 col-sm-5 text-white"><DrawSkillSet /></div>
             </div>
         </div>
     )

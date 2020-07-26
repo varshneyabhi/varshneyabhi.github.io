@@ -6,6 +6,7 @@ import NavBar from '../components/nav'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import '@fortawesome/fontawesome-svg-core/styles.css';
 
 const indexStyle = {
     minHeight: "100vh",
@@ -18,17 +19,17 @@ const DrawContactBar = () => {
             <ul id="menu" align="center">
                 <li>
                     <a href="mailto:varshneyabhi@gmail.com">
-                        <FontAwesomeIcon icon={faEnvelopeOpen} size="2x" color="black" />
+                        <FontAwesomeIcon icon={faEnvelopeOpen} size="2x" color="black" width="0"/>
                     </a>
                 </li>
                 <li>
                     <a href="https://github.com/varshneyabhi">
-                        <FontAwesomeIcon icon={faGithub} size="2x" color="black" />
+                        <FontAwesomeIcon icon={faGithub} size="2x" color="black" width="0"/>
                     </a>
                 </li>
                 <li>
                     <a href="https://www.linkedin.com/in/varshneyabhi/">
-                        <FontAwesomeIcon icon={faLinkedin} size="2x" color="black" />
+                        <FontAwesomeIcon icon={faLinkedin} size="2x" color="black" width="0"/>
                     </a>
                 </li>
             </ul>
