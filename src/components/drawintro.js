@@ -1,7 +1,7 @@
 import React from 'react'
 
 const introStyle = {
-    marginTop : "-200px",
+    marginTop : "-210px",
     paddingTop : "40px",
     paddingBottom : "40px",
     backgroundColor : "#3c3836",
@@ -15,10 +15,18 @@ const introStyle = {
 
 function PrintPythonTag() {
     return (
-        <h5 align="center" className="orange">
-            <span className="grey"> print (" </span> Senior Engineer In  <strong style={{color:"#4169E1"}}> NOKIA </strong> 
-            <span className="grey">   ")</span>
-        </h5>
+        <div>
+            <h5 align="center" className="orange">
+                <span className="grey"> print (" </span> Senior Engineer In  <strong style={{color:"#4169E1"}}> NOKIA </strong> <span className="grey">   ")</span>
+            </h5>
+            <div align="center">
+                <a href="" class="badge badge-primary">#python</a>&nbsp;
+                <a href="" class="badge badge-success">#microservice</a>&nbsp;
+                <a href="" class="badge badge-danger">#backenddeveloper</a>&nbsp;
+                <a href="" class="badge badge-warning">#scripting</a>&nbsp;
+                <a href="" class="badge badge-info">#devops</a>
+            </div>
+        </div>
     )
 }
 
@@ -35,7 +43,7 @@ export default () =>
     <div className="container" style={introStyle}>
         <DrawPic />
         <h1 align="center" className="fg1" style={{marginTop : "10px"}}> Hi, I am Abhishek Varshney.</h1>
-        <h4 align="center" className="yellow"> (A Programmer By Hobby And Profession) </h4>
+        <h4 align="center" className="yellow"> (A Programmer By Choice And Profession) </h4>
         <br/>
         <PrintPythonTag />
     </div>

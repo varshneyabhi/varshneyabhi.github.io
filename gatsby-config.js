@@ -9,7 +9,7 @@ module.exports = {
   pathPrefix: `/public`,
   siteMetadata: {
     title: `Abhishek Varshney | Portfolio`,
-      siteUrl: `https://varshneyabhi.github.com/public/`,
+    siteUrl: `https://varshneyabhi.github.com/public/`,
     description: `Abhishek Varshney's portfolio.`,
   }
 }
